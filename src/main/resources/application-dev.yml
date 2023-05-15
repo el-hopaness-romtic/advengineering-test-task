@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    generate-unique-name: false
+    name: project-manager
+  h2:
+    console:
+      enabled: true
+
+logging:
+  level:
+    org.springframework:
+      web: DEBUG
+      security: DEBUG
